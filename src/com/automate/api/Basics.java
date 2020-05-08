@@ -18,7 +18,7 @@ public class Basics {
 		//when - Submit the API - http method
 		//Then - validate the response		
 		
-		RestAssured.baseURI ="https://rahulshettyacademy.com";
+		RestAssured.baseURI ="https://unipupil.com";
 		String Response =given().log().all().queryParam("key", "qaclick123").header("Content-Type", "application/json")
 		.body(payload.AddPlace()).when().post("maps/api/place/add/json")
 		.then().assertThat().statusCode(200).body("scope", equalTo("APP"))
