@@ -29,7 +29,7 @@ public class payload {
 			return "{\r\n" + 
 					"\"dashboard\": {\r\n" + 
 					"\"purchaseAmount\": 910,\r\n" + 
-					"\"website\": \"rahulshettyacademy.com\"\r\n" + 
+					"\"website\": \"unipupil.com\"\r\n" + 
 					"},\r\n" + 
 					"\"courses\": [\r\n" + 
 					"{\r\n" + 
